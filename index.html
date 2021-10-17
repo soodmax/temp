@@ -11,16 +11,51 @@
       src="https://kit.fontawesome.com/5427df194c.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="shortcut icon" href=" " />
     <title>Document</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <i class="fas fa-search"></i>
-    </main>
-    <footer></footer>
+    <div
+      class="
+        container
+        mx-auto
+        border-2 border-red-700
+        h-10
+        bg-red-400
+        flex
+        items-center
+        justify-center
+      "
+    >
+      <nav>
+        <ul
+          class="
+            flex
+            items-center
+            justify-center
+            content-center
+            border-2 border-blue-500
+          "
+        >
+          <li class="">Home</li>
+          <li class="ml-4">About</li>
+          <li class="ml-4">Blog</li>
+        </ul>
+      </nav>
+
+      <select class="">
+        <option value="CAD">DOT</option>
+        <option value="CAD">KSM</option>
+        <option value="CAD">KAR</option>
+        <option value="CAD">MOVR</option>
+      </select>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
