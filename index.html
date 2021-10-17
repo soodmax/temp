@@ -20,40 +20,31 @@
     <title>Document</title>
   </head>
   <body>
-    <div
-      class="
-        container
-        mx-auto
-        border-2 border-red-700
-        h-10
-        bg-red-400
-        flex
-        items-center
-        justify-center
-      "
-    >
-      <nav>
-        <ul
-          class="
-            flex
-            items-center
-            justify-center
-            content-center
-            border-2 border-blue-500
-          "
-        >
-          <li class="">Home</li>
-          <li class="ml-4">About</li>
-          <li class="ml-4">Blog</li>
-        </ul>
-      </nav>
-
-      <select class="">
-        <option value="CAD">DOT</option>
-        <option value="CAD">KSM</option>
-        <option value="CAD">KAR</option>
-        <option value="CAD">MOVR</option>
-      </select>
+    <div class="flex items-center justify-center h-16 bg-gray-300 shadow-2xl">
+      <div class="container flex items-center justify-center mx-auto">
+        <nav>
+          <ul class="flex items-center justify-center text-gray-900">
+            <li class="text-xl">
+              <a href="#">Home</a>
+            </li>
+            <li class="text-xl ml-6">
+              <a href="#">About</a>
+            </li>
+            <li class="text-xl ml-6">
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="ml-auto">
+          <input type="text" name="" id="" class="h-10 rounded outline-none pl-2" placeholder="Search...">
+          <select class="h-10 w-auto rounded">
+            <option value="CAD">DOT</option>
+            <option value="CAD">KSM</option>
+            <option value="CAD">KAR</option>
+            <option value="CAD">MOVR</option>
+          </select>
+        </div>
+      </div>
     </div>
 
     <script src="index.js"></script>
