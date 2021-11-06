@@ -12,41 +12,26 @@
       crossorigin="anonymous"
     ></script>
     <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="shortcut icon" href=" " />
     <title>Document</title>
   </head>
   <body>
-    <div class="flex items-center justify-center h-16 bg-gray-300 shadow-2xl">
-      <div class="container flex items-center justify-center mx-auto">
-        <nav>
-          <ul class="flex items-center justify-center text-gray-900">
-            <li class="text-xl">
-              <a href="#">Home</a>
-            </li>
-            <li class="text-xl ml-6">
-              <a href="#">About</a>
-            </li>
-            <li class="text-xl ml-6">
-              <a href="#">Blog</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="ml-auto">
-          <input type="text" name="" id="" class="h-10 rounded outline-none pl-2" placeholder="Search...">
-          <select class="h-10 w-auto rounded">
-            <option value="CAD">DOT</option>
-            <option value="CAD">KSM</option>
-            <option value="CAD">KAR</option>
-            <option value="CAD">MOVR</option>
-          </select>
-        </div>
-      </div>
-    </div>
+    Account Address:
+    <h1 id="accountAddress"></h1>
+    Account Balance:
+    <h1 id="accountBalance"></h1>
+    <button id="btnConnect" class="btn btn-primary">Connect</button>
 
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
     <script src="index.js"></script>
   </body>
 </html>
